@@ -5,15 +5,15 @@
 ## APサーバー
 * 名前とversionの確認：Puma vesion 7.0.4
 * control + Cで停止させた際
-![APサーバー停止](/lecture03-images/lecture03-image2.png)
+![APサーバー停止](images/lecture03-image2.png)
 
 ## DBサーバー
 * 名前とversionの確認：MySQL version 8.0.3
 * $ sudo systemctl stop mysqld.service で停止
 * $ sudo systemctl status mysqld.service でstatusの確認
 * $ sudo systemctl start mysqld.service　で再開
-![MySQL　inactive](/lecture03-images/lecture03-image3.png)
-![MySQL 停止時の状況](/lecture03-images/lecture03-image4.png)
+![MySQL　inactive](images/lecture03-image3.png)
+![MySQL 停止時の状況](images/lecture03-image4.png)
 
 ## Ruby on rails 構成管理ツール
 * 名前：Bundler
