@@ -1,19 +1,22 @@
 # 第3回課題提出
 ## Ruby on rails 起動
-[![作動状況](https://i.gyazo.com/c0d46b6d9e21efdb4b88d945dda08164.png)](https://gyazo.com/c0d46b6d9e21efdb4b88d945dda08164)
+
+![作動状況](images/lecture03-image1.png)
 
 ## APサーバー
 * 名前とversionの確認：Puma vesion 7.0.4
 * control + Cで停止させた際
-[![APサーバー停止](https://i.gyazo.com/ade138eea67605c152046321ba4f95dd.png)](https://gyazo.com/ade138eea67605c152046321ba4f95dd)
+![APサーバー停止](images/lecture03-image2.png)
+
 
 ## DBサーバー
 * 名前とversionの確認：MySQL version 8.0.3
 * $ sudo systemctl stop mysqld.service で停止
-* $ ystemctl status mysqld.service でstatusの確認
+* $ sudo systemctl status mysqld.service でstatusの確認
 * $ sudo systemctl start mysqld.service　で再開
-[![MySQL　inactive](https://i.gyazo.com/3e8190bbd07cdbd601de56157fbc218b.png)](https://gyazo.com/3e8190bbd07cdbd601de56157fbc218b)
-[![MySQL 停止時の状況](https://i.gyazo.com/4a730614b5bf12a684a3eb49545c91a3.png)](https://gyazo.com/4a730614b5bf12a684a3eb49545c91a3)
+![MySQL　inactive](images/lecture03-image3.png)
+![MySQL 停止時の状況](images/lecture03-image4.png)
+
 
 ## Ruby on rails 構成管理ツール
 * 名前：Bundler
